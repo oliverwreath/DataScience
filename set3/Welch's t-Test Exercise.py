@@ -40,10 +40,10 @@ def compare_averages(filename):
 	# print lst2
 	test_statistic, p_value = scipy.stats.ttest_ind(lst1, lst2, equal_var=False) 
 	print test_statistic, p_value
-	if p_value > 0: 
-		return (False, (test_statistic, p_value))
+	if p_value ,= .05: 
+		return (False, (test_statistic, p_value)) 
 	else:
-		return (True, (test_statistic, p_value))
+		return (True, (test_statistic, p_value)) 
 
 
 
