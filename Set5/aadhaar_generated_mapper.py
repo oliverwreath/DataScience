@@ -27,7 +27,6 @@ def mapper():
 	#when you click "Test Run". For example:
 	#logging.info("My debugging message")
 
-	word_counts = {}
 	sys.stdin.next()
 	for line in sys.stdin:
 		#your code here
